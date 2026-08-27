@@ -29,6 +29,17 @@ Short-term stay booking is fundamentally a two-sided marketplace problem: hosts 
 * **Photo uploads:** The browser uploads directly to Cloudinary (an unsigned upload preset), not through the backend — only the resulting URL ever touches the Express API or the database.
 * **State:** `AuthContext` and `ToastContext` via React Context — no external state library needed at this size.
 
+## 📸 App Screenshots
+
+<p align="center">
+  <img src="./screenshots/browse.png" width="48%" alt="Browse Listings" />
+  <img src="./screenshots/dashboard.png" width="48%" alt="Host Dashboard Analytics" />
+</p>
+<p align="center">
+  <img src="./screenshots/booking.png" width="48%" alt="Booking & Price Preview" />
+  <img src="./screenshots/upload.png" width="48%" alt="Cloudinary Photo Upload" />
+</p>
+
 ## Roles, concretely:
 * **GUEST** — browses, searches, books, manages their own bookings.
 * **HOST** — everything a Guest can view, plus creating/editing/deleting their own listings and seeing bookings + revenue across them.
