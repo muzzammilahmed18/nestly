@@ -30,6 +30,6 @@ If a conflicting CONFIRMED booking already exists, the transaction throws before
 3. **Client-side uploads to a third-party service (Cloudinary) simplify the backend a lot.** My server never has to touch a file at all, only the URL, which sidesteps an entire category of disk storage problems.
 
 ## Live links
-* **App:** [PASTE YOUR VERCEL URL]
-* **Frontend code:** [PASTE YOUR GITHUB LINK]
-* **Backend code:** [PASTE YOUR GITHUB LINK]
+* **App:** https://nestly-booking-app.vercel.app/
+* **Frontend code:** https://github.com/muzzammilahmed18/nestly
+* **Backend code:** https://github.com/muzzammilahmed18/nestly-backend

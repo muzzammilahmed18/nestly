@@ -1,7 +1,7 @@
 # Nestly — Frontend 🏡
 
-🔗 **Live app:** [PASTE YOUR VERCEL URL HERE]
-🔗 **Backend repo:** [PASTE YOUR nestly-backend GITHUB LINK HERE]
+🔗 **Live app:** https://nestly-booking-app.vercel.app/
+🔗 **Backend repo:** https://github.com/muzzammilahmed18/nestly-backend
 
 A full-stack property booking marketplace — hosts list places to stay, guests search, filter, and book them, with real double-booking prevention, role-based permissions, photo uploads, and a data dashboard. Built as a capstone project across a full-stack internship.
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import NestlyLogo from "./NestlyLogo";
 
 export default function Navbar() {
   const { isAuthenticated, user, logout } = useAuth();
@@ -11,14 +12,15 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
         {/* Logo */}
-        <Link 
-          to="/" 
-          className="flex items-center gap-2 group" 
-          onClick={() => setMenuOpen(false)}
-        >
-          <span className="text-3xl transition-transform group-hover:scale-110">🏡</span>
-          <span className="text-2xl font-bold text-orange-700 tracking-tight">Nestly</span>
-        </Link>
+<Link
+  to="/"
+  className="hover:opacity-95 transition-opacity group"
+  onClick={() => setMenuOpen(false)}
+>
+  <div className="transition-transform group-hover:scale-105">
+    <NestlyLogo className="w-8 h-8" withText={true} />
+  </div>
+</Link>
 
         {/* Desktop Navigation */}
         <div className="hidden sm:flex items-center gap-6">
